@@ -1,21 +1,17 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Promodoro Timer",
     "description": "A clock that counts down",
-    "version": "0.1a",
+    "version": "1.0",
     "icons": {
-    "<filename>": "file.png"
+        "16" : "/assets/icon.png",
+        "32" : "/assets/icon.png",
+        "48" : "/assets/icon.png",
+        "128": "/assets/icon.png"
     },
-    "app": {
-    "urls": [
-    "http://certification.googleapps.com/app-info/"
-    ],
-    "launch": {
-    "web_url": "http://certification.googleapps.com/"
+    "action" : {
+        "default_popup" : "index.html",
+        "default_icon" : "/assets/icon.png"
     }
-    },
-    "permissions": [
-    "unlimitedStorage",
-    "notifications"
-    ]
-    }
+}
+    

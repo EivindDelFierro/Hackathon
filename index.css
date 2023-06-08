@@ -1,1 +1,40 @@
-This is a test
+
+/* .tomato {
+  position: absolute;
+  top : 0px;
+  left : 0px;
+
+} */
+ .input {
+    /* display: flex; */
+    position: absolute;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: space-around; */
+  z-index: 0;
+  size: 4;
+  /* maxlength: 2; */
+  top : 100px; 
+  right : 79px; 
+  padding-left: 50px;
+  font-style: italic;
+  /* width: 2px; */
+  /* style : {
+    width
+  } */
+ }  
+
+ .buttons {
+    position: absolute;
+    right: 38px;
+    bottom: 70px
+ }
+body {
+    background-color: #4f7942;
+}
+
+/* html
+{
+    width: 750px; /* max: 1000px */
+ /*   height: 750px; /* max: 750px */
+/* }
